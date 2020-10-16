@@ -1,10 +1,10 @@
 {
-  "name": "base64-js",
+  "name": "baseEmoji",
   "description": "Base64 encoding/decoding in pure JS",
   "version": "1.3.1",
-  "author": "T. Jameson Little <t.jameson.little@gmail.com>",
+  "author": "Matt Weeks",
   "bugs": {
-    "url": "https://github.com/beatgammit/base64-js/issues"
+    "url": "https://github.com/m-weeks/baseEmoji/issues"
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
@@ -13,7 +13,7 @@
     "tape": "4.x",
     "uglify-js": "^3.6.0"
   },
-  "homepage": "https://github.com/beatgammit/base64-js",
+  "homepage": "https://github.com/m-weeks/baseEmoji",
   "keywords": [
     "base64"
   ],
@@ -21,7 +21,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/beatgammit/base64-js.git"
+    "url": "git://github.com/m-weeks/baseEmoji.git"
   },
   "scripts": {
     "build": "browserify -s base64js -r ./ | uglifyjs -m > base64js.min.js",
